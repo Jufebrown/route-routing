@@ -4,7 +4,14 @@
   <meta charset="UTF-8">
   <title>Route Routing</title>
 </head>
-<body>
+<body ng-app='routeApp'>
+  <header>
+    <nav>
+      <a routerLink="/route1" routerLinkActive="active">Route 1</a>
+      <a routerLink="/route101" routerLinkActive="active">Route 101</a>
+    </nav>
+  </header>
+  <div ng-view></div>
 
 
   <script type="text/javascript" src="bower_components/angular/angular.js"></script>

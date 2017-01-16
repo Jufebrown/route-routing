@@ -21,9 +21,11 @@ app.controller('MainCtrl', function($scope) {
 })
 
 app.controller('rt1Ctrl', function($scope) {
-  console.log('here is the list controller')
+  $scope.highwayName = 'US Route 1'
+  $scope.highwayDescription = 'U.S. Route 1 (US 1) is a major north–south U.S. Highway that serves the East Coast of the United States. It runs 2,369 miles (3,813 km), from Fort Kent, Maine, at the Canada–US border, south to Key West, Florida, making it the longest north-south road in the United States.[2] US 1 is generally paralleled by Interstate 95, though the former is significantly farther west (inland) between Jacksonville, Florida, and Petersburg, Virginia. The highway connects most of the major cities of the east coast, including Miami, Richmond, Washington, D.C., Baltimore, Philadelphia, New York City, and Boston, passing from the Southeastern United States to New England.'
 })
 
 app.controller('rt101Ctrl', function($scope) {
-  console.log('here is the list controller')
+  $scope.highwayName = 'US Route 101'
+  $scope.highwayDescription = 'U.S. Route 101, or U.S. Highway 101 (US 101) is a north–south United States Numbered Highway that runs through the states of California, Oregon, and Washington, on the West Coast of the United States. It is also known as El Camino Real (The Royal Road) where its route along the southern and central California coast approximates the old trail which linked the Spanish missions, pueblos, and presidios. It merges at some points with California State Route 1 (SR 1).'
 })

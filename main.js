@@ -1,6 +1,7 @@
 var app = angular.module('routeApp', ['ngRoute'])
 
-app.config(($routeProvider) => {
+app.config(($routeProvider, $locationProvider) => {
+  $locationProvider.hashPrefix('')
   $routeProvider
   .when('/', {
     controller: 'MainCtrl',
